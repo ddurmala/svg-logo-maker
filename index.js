@@ -83,7 +83,7 @@ inquirer.prompt([
         if (err) {
             console.error('Error writing SVG file:', err);
         } else {
-            console.log('SVG logo successfully created!');
+            console.log('Generated logo.svg');
         }
     });
 }).catch((err) => {
